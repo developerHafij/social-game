@@ -1,0 +1,174 @@
+.banner-section{
+    background-color: #353353;
+    padding: 3.5% 0;
+    height: 100vh;
+}
+.banner-section .banner-content{
+	box-shadow: 0px 0px 14px #757575;
+	padding: 40px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.banner-section .banner-content h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 92%;
+    display: block;
+    margin: 20px auto 0 !important;
+    color: #444444c7 !important;
+    font-weight: 600;
+    letter-spacing: -0.7px;
+    line-height: 23px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.banner-section .banner-content p{
+	margin-top: 10px !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #a7a7a7 !important;
+    font-weight: 700;
+}
+.banner-section .banner-content span{
+    color: #d48500;
+    font-size: 20px;
+    font-weight: 400;
+}
+.banner-section .banner-content strong{
+    color: #d48511;
+    font-weight: 600;
+    font-size: 23px;
+}
+.banner-section .last-item{
+   	margin-top: 15px;
+}
+.banner-section .last-item .cmn-p{
+   	padding: 0;
+}
+.banner-section .last-item .cmn-p .input-name{
+	width: 250px;
+    padding: 8px 12px;
+    border: 1px solid #d2d0d0;
+    box-shadow: 0px 0px 14px #757575;
+}
+.banner-section .last-item .cmn-p .sub-btn{
+	float: right;
+    padding: 8px 48px;
+    background-color: #d48500;
+    color: #fff;
+    border: 1px solid #d48500;
+    box-shadow: 0px 0px 14px #757575;
+}
+.banner-section .last-item .cmn-p .sub-btn:hover{
+    background-color: #353353;
+    border: 1px solid #fff;
+}
+.share .fa-share {
+    float: right;
+    background-color: #d48500;
+    border: 1px solid #d2d0d0;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    border-radius: 50px;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+.share .fa-share:hover {
+    background-color: #353353;
+    border: 1px solid #fff;
+    font-size: 22px;
+}
+
+footer{
+	padding: 15px 0;
+	background-color: #d48500;
+}
+
+
+/*=================================================================*/
+/*                      PARALLAX SHAPES                              
+/*=================================================================*/
+.parallax {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.parallax .layer {
+  position: absolute;
+}
+.parallax .p1 {
+  left: 10%;
+  top: 10%;
+}
+.parallax .p2 {
+  left: 25%;
+  top: 30%;
+}
+.parallax .p3 {
+  left: 15%;
+  bottom: 30%;
+}
+.parallax .p4 {
+  left: 10%;
+  bottom: 10%;
+}
+.parallax .p5 {
+  left: 45%;
+  top: 10%;
+}
+.parallax .p6 {
+  left: 40%;
+  bottom: 10%;
+}
+.parallax .p7 {
+  top: 20%;
+  right: 30%;
+}
+.parallax .p8 {
+  right: 30%;
+  bottom: 20%;
+}
+.parallax .p9 {
+  right: 10%;
+  top: 10%;
+}
+.parallax .p10 {
+  top: 45%;
+  right: 20%;
+}
+.parallax .p11 {
+  bottom: 10%;
+  right: 10%;
+}
+.all-parallax{
+    z-index: 2;
+}
+
+/* Image Parallax */
+.lt-work-thumbnail{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+.lt-work-thumbnail > img{
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.lt-work-thumbnail:hover > img{
+    transform: scale(1.2) translateX(20px);
+}
+.lt-work-thumbnail {
+    overflow: hidden;
+}
+.lt-work-thumbnail > img {
+    width: 100%;
+}
